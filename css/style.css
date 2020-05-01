@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background:linear-gradient(rgba(56, 171, 200, 0.8),rgba(56, 171, 200, 0.8)),url(../images/background.jpg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    
+
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+/*Common Css ends*/
+/*MENU STARTS*/
+.menu {
+    text-transform: capitalize;
+}
+
+.menu .navbar-brand {
+    color: #fff;
+    text-transform: Capitalize;
+    font-weight: 400;
+    line-height: 50px;
+    font-size: 30px;
+    
+}
+
+.menu .navbar {
+    padding: 0;
+}
+
+.menu .navbar-brand:hover {
+    color: #fff;
+}
+
+.menu .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 14px;
+    background: rgba(96, 173, 6, 0);
+    margin-left: 10px;
+    padding: 5px 20px;
+    display: block;
+    border-radius: 5px;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+    -moz-transition: 0.4s;
+    transition: 0.4s;
+
+}
+
+.menu .navbar-light .navbar-nav .nav-link:hover {
+    background: rgba(96, 173, 6, .5);
+}
+
+/*MENU ENDS*/
+/*PRODUCT PART START*/
+/*SIDENAV STARTS*/
+.products h4{
+    color: #fff;
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.products ul{
+    background: #fff;
+    padding: 5px;
+}
+.products ul li{
+    margin-bottom: 5px;
+    padding: 10px 20px;
+    box-shadow: border-box;
+    border-radius: 5px;
+}
+.products ul li a{
+    text-decoration: none;
+    color: #444;
+}
+.products .item{
+    background: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.products .item .image{
+    width: 100px;
+}
+.products .item h5{
+    font-weight: 600;
+    color: #444;
+}
+.products .item p{
+    font-weight: 700;
+    color: #444;
+}
+.products .btn{
+    background: rgba(56, 171, 200, 1);
+    border: 0;
+    outline: 0;
+    color: #fff;
+}
+
+
+
+/*SIDENAV ENDS*/
+/*PRODUCT PART ENDS*/
